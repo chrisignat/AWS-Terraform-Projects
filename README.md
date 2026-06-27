@@ -65,5 +65,3 @@ To ensure state integrity and professional development standards, the workflow i
 3. **Amazon S3 (`terraform.tfstate`):** The Terraform State file is stored remotely in an S3 Bucket. DynamoDB state-locking features are integrated to prevent concurrent execution conflicts or race conditions.
 
 ---
-ub.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-   cd your-repo-name

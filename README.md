@@ -56,12 +56,3 @@ The infrastructure spans across two Availability Zones (`us-east-1a` & `us-east-
    * **AWS Secrets Manager:** Automates database credential management with automated password rotation and secure encryption, removing hardcoded secrets from the code.
 
 ---
-
-## 🛠️ Remote State & Terraform Workflow
-
-To ensure state integrity and professional development standards, the workflow is strictly defined as follows (and visualized in **Screenshot 2026-06-27 161804_edited.png**):
-1. **Local Machine:** Infrastructure code is written and tested locally.
-2. **GitHub:** Version control acts as the source of truth for the configuration code.
-3. **Amazon S3 (`terraform.tfstate`):** The Terraform State file is stored remotely in an S3 Bucket. DynamoDB state-locking features are integrated to prevent concurrent execution conflicts or race conditions.
-
----

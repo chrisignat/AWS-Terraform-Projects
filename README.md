@@ -33,9 +33,9 @@ This repository is designed to demonstrate hands-on expertise in implementing th
 The inaugural project focuses on deploying a classic, production-ready **3-Tier Cloud Architecture** inside a custom Virtual Private Cloud (VPC) to ensure top-tier segregation between web, application, and database components.
 
 ### 📊 Architecture Diagram
-The cloud blueprint automated by Terraform in this project is based on the comprehensive design illustrated in **Screenshot 2026-06-27 161804_edited.png**:
+The cloud blueprint automated by Terraform in this project is based on the comprehensive design:
 
-![AWS 3-Tier Architecture](./<img width="1697" height="927" alt="Screenshot 2026-06-27 161804_edited" src="https://github.com/user-attachments/assets/c6aa5575-ceae-4383-a887-7ffe4ab06286" />) 
+<img width="1697" height="927" alt="Screenshot 2026-06-27 161804_edited" src="https://github.com/user-attachments/assets/c6aa5575-ceae-4383-a887-7ffe4ab06286" />
 
 ### 🔍 Tier-by-Tier Breakdown
 The infrastructure spans across two Availability Zones (`us-east-1a` & `us-east-1b`) ensuring High Availability (HA) and Fault Tolerance:
@@ -65,5 +65,5 @@ To ensure state integrity and professional development standards, the workflow i
 3. **Amazon S3 (`terraform.tfstate`):** The Terraform State file is stored remotely in an S3 Bucket. DynamoDB state-locking features are integrated to prevent concurrent execution conflicts or race conditions.
 
 ---
-   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+ub.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
    cd your-repo-name
